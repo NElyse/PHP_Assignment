@@ -3,8 +3,7 @@
     if (isset($_POST['submit'])) 
     session_start();
     {
-        //get form input
-    
+       
     $f=$_POST['FName'];
     $l=$_POST['LName'];
     $e=$_POST['Email'];

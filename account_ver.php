@@ -38,7 +38,8 @@
                         <div class="row g-2 mt-1 my-7">
                         <div class="col">
                             <div class="position-relative">
-                                <button type="Email" class="btn btn-info rounded-pill text-white fw-bold w-100"><i class="fa fa-user-circle" aria-hidden="true"></i> Your email</button>
+                               
+                            <button type="Email" class="btn btn-info rounded-pill text-white fw-bold w-100"><i class="fa fa-user-circle" aria-hidden="true"></i> Your email</button>
                             </div>
                         </div>
                         <div >

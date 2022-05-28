@@ -18,32 +18,33 @@
     <div class="d-flex justify-content-center align-items-center my-3">
             <div class="border my-3 px-3 pt-4 position-relative text-center w-40 " style="height:70vh; width: 60vh;" >
             
-                <div class="col my-5" >
-                        <div class="position-relative">
-                        <h6 style="font-size:25px;p-2" >Welcome Back!</h6>
-                        </div> 
-                        
+                
+                <div class="position:relative my-5"">
+                <h5>Welcome Back!</h5>
+                <i class="fa fa-user-circle text-info" aria-hidden="true"></i>
+                Hi NSENGIMANA
                 </div>
-                <div class="col my-2" >
-                        <div class="position-relative">
-                            <h6 style="font-size:20px;p-2" > Hi User </h6>
-                        </div> 
-                        <div class="row g-2 mt-1 my-7">
+                
+                <div class="row g-2 mt-1 my-7">
                 <div class="col" >
                     <div class="position-relative">
                         <!-- <input type="Email" class=" rounded-pill   w-100 " ><i class="fa fa-user-circle" aria-hidden="true"  
-                        style=" padding-left: 40px"></i> Your email</input> --> 
-                        <input type="text" name="" placeholder="fetch your email " id="">
+                        style=" padding-left: 40px"></i> Your email</input>  -->
+                        <!-- <input type="text" name="" placeholder="fetch your email " id=""> -->
                     </div>
                 </div>
-                <div class="row g-2 mt-1">
-                   <div class="col">
-                       <div class="position-relative">
-                           <input type="password" placeholder="Password" class="form-control" style="padding-left: 40px">
-                           <i class="fa text-info fa-key position-absolute" style="top: 13px; left: 15px ;" aria-hidden="true"></i>
-                       </div>
-                   </div>
-               </div>
+                
+                
+
+               <div class="row g-2 mt-1">
+                <div class="col">
+                    <div class="position-relative">
+                        <input type="password" name="Password" placeholder="Password" class="form-control" id="view" style="padding-left: 40px">
+                        <i class="fa text-info fa-key position-absolute" style="top: 13px; left: 15px" aria-hidden="true"></i>
+                        <i class="fa text-info fa-eye-slash position-absolute" style="top: 13px; left: 320px" onclick="view_pas()" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
                         
                <div class="row g-1 m,">
                     <div class="col">
@@ -81,3 +82,17 @@
     
 </body>
 </html>
+
+
+<script>
+    function view_pas() {
+var x = document.getElementById("view");
+if (x.type === "password") {
+x.type = "text";
+} else {
+x.type = "password";
+}
+}
+
+
+</script>

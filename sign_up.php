@@ -137,9 +137,9 @@ echo "Message could not be sent. Mailer Error: {$maill->ErrorInfo}";
 <div class="row g-2 mt-1">
     <div class="col">
         <div class="position-relative">
-            <input type="password" name="Password" placeholder="Password" class="form-control" style="padding-left: 40px">
+            <input type="password" name="Password" placeholder="Password" class="form-control" id="view" style="padding-left: 40px">
             <i class="fa text-info fa-key position-absolute" style="top: 13px; left: 15px" aria-hidden="true"></i>
-            <i class="fa text-info fa-eye-slash position-absolute" style="top: 13px; left: 320px" aria-hidden="true"></i>
+            <i class="fa text-info fa-eye-slash position-absolute" style="top: 13px; left: 320px" onclick="view_pas()" aria-hidden="true"></i>
         </div>
     </div>
 </div>
